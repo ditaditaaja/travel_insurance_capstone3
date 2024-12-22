@@ -1,0 +1,12 @@
+**Context**  
+Sebuah perusahaan asuransi perjalanan mengumpulkan data histori klaim dari produk yang mereka tawarkan. Berdasarkan track record, perusahaan ingin mengetahui track record customer yang mengambil produk asuransi dan akhirnya mengajukan atau tidak mengajukan claim. Dari track record ini, di masa depan, costumer dengan spesikasi yang sama atau mirip dengan customer yang telah mengajukan claim akan dikategorikan sebagai perjalanan dengan resiko tinggi. Bergerak dari hasil analisis tersebut, perusahaan akan menentukan premi yang dibebankan kepada customer. Premi yang dibayarkan harus lebih besar daripada kemungkinan resiko tertanggung, atau minimal breakeven. Ketika terjadi sebaliknya, maka perusahaan akan mengalami kerugian karena premi tidak dapat menanggung seluruh akibat suatu resiko ketika ia benar - benar terjadi. Sedangkan, premi yang sudah disetujui tidak dapat direvisi setelah resiko terjadi, hasilnya perusahaan harus mengcover biaya tersebut dari margin keuntungan. Semakin besar kesalahan prediksi resiko, maka semakin besar keuntungan perusahaan tergerus. Dalam waktu lama, bukannya tidak mungkin finansial perusahaan akan terganggu dan akhirnya mengalami pailit. Oleh karena itu, diperlukan suatu metode untuk memprediksi kemungkinan resiko yang akan terjadi dalam suatu perjalanan secara akurat, agar seluruh biaya yang berpotensi akan timbul dapat tertanggung seluruhnya. Dalam hal ini kita akan memanfaatkan pemodelan machine learning.
+
+**Goal**
+1. Perusahaan ingin membuat proses assesment resiko menjadi lebih seamless dan akurat dengan model machine learning.
+2. Menurunkan resiko kerugian karena hasil assesment yang tidak sesuai dengan resiko aktual.
+3. Memberikan dasar penentuan premi berdasarkan pola stakeholder yang mengajukan claim.
+
+**Target**  
+Karena fokus perusahaan adalah stakeholder yang mengajukan claim, maka   
+0 = Tidak mengajukan claim  
+1 = Mengajukan claim
